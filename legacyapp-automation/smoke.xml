@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.uom.tests.Suppliers"/>
+      <methods>
+    <include name="INV_MS_001_002_003_004_006_View_Add_DeleteSupplier"></include> 
+     <include name="INV_MS_005_View_Delete_SyscoSupplier"></include>
+     
+     </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="RETRY"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.uom.tests.NonSyscoPrepItems">
+        <methods>
+          <include name="INV_NSI_012_Add_NonSysco_Item_DefaultCat_DefaultLoc_SupplierList_LocQtyUOM" invocation-numbers="0 0 0"/>
+          <include name="getData"/>
+          <include name="INV_NSI_015_Error_Message_ChangeUOMAttriubte_ForNonSyscoItem" invocation-numbers="0 0 0"/>
+          <include name="INV_NSI_010_Add_Prep_Item_CustomCat_CategoryAsLocation" invocation-numbers="0 0 0"/>
+          <include name="initiate"/>
+          <include name="INV_NSI_015a_Error_Message_ChangeUOMAttriubte_ForPrepItem" invocation-numbers="0 0 0"/>
+        </methods>
+      </class> <!-- com.uom.tests.NonSyscoPrepItems -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
